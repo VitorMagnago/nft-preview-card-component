@@ -26,26 +26,38 @@ body {
 
 .card__title {
 	grid-column: span 2;
+	font-size: 1.375rem;
+	font-weight: 600;
+	color: #ffffff;
 }
 .card__text {
 	grid-column: span 2;
+	font-size: 1.125rem;
+	font-weight: 300;
+	color: #8bacd9;
 }
 
 .card__price {
 	font-size: 0.9375rem;
+	font-weight: 600;
+	color: #00fff8;
 }
 
 .card__price::before {
 	content: url(../images/icon-ethereum.svg);
 	margin-right: 6.5px;
+	vertical-align: middle;
 }
 
 .card__days {
+	font-size: 0.9375rem;
+	color: #8bacd9;
 }
 
 .card__days::before {
 	content: url(../images/icon-clock.svg);
 	margin-right: 9px;
+	vertical-align: middle;
 }
 
 .card__creator {
@@ -56,4 +68,5 @@ body {
 	width: 33px;
 	border: 1px solid #ffffff;
 	border-radius: 50%;
+	display: inline-block;
 }
