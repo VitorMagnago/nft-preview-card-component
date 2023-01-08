@@ -2,4 +2,15 @@ body {
 	font-family: "Outfit", sans-serif;
 	min-height: 100vh;
 	background-color: #0d192c;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.card {
+	background-color: #15263f;
+	max-width: 327px;
+	border: 1px solid transparent;
+	border-radius: 15px;
+	padding: 24px;
 }
