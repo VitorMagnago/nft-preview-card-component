@@ -14,3 +14,46 @@ body {
 	border-radius: 15px;
 	padding: 24px;
 }
+
+.card__image {
+	border-radius: 8px;
+}
+
+.card__info {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+}
+
+.card__title {
+	grid-column: span 2;
+}
+.card__text {
+	grid-column: span 2;
+}
+
+.card__price {
+	font-size: 0.9375rem;
+}
+
+.card__price::before {
+	content: url(../images/icon-ethereum.svg);
+	margin-right: 6.5px;
+}
+
+.card__days {
+}
+
+.card__days::before {
+	content: url(../images/icon-clock.svg);
+	margin-right: 9px;
+}
+
+.card__creator {
+	grid-column: span 1;
+}
+
+.card__avatar {
+	width: 33px;
+	border: 1px solid #ffffff;
+	border-radius: 50%;
+}
