@@ -52,6 +52,7 @@ body {
 .card__days {
 	font-size: 0.9375rem;
 	color: #8bacd9;
+	margin-left: auto;
 }
 
 .card__days::before {
@@ -61,12 +62,24 @@ body {
 }
 
 .card__creator {
-	grid-column: span 1;
+	grid-column: span 2;
+	display: flex;
+	border-top: 1px solid #8bacd9;
+	padding-top: 16px;
 }
 
 .card__avatar {
 	width: 33px;
 	border: 1px solid #ffffff;
 	border-radius: 50%;
-	display: inline-block;
+	margin-right: 16px;
+}
+
+.creator__text {
+	align-self: center;
+	color: #8bacd9;
+}
+
+.creator__text a {
+	color: white;
 }
