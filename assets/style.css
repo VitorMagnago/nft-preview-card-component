@@ -15,9 +15,35 @@ body {
 	padding: 24px;
 }
 
+.image-container{
+	position: relative;
+	width: 100%;
+}
+
 .card__image {
 	border-radius: 8px;
 }
+
+.image-overlay{
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	height: 100%;
+	width: 100%;
+	opacity: 0;
+	background-color: #00FFF8;
+	border-radius: 8px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.image-overlay:hover{
+	opacity: .5;
+}
+
 
 .card__info {
 	display: grid;
