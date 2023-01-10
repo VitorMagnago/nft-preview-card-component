@@ -18,6 +18,7 @@ body {
 .image-container{
 	position: relative;
 	width: 100%;
+	margin-bottom: 24px;
 }
 
 .card__image {
@@ -55,18 +56,21 @@ body {
 	font-size: 1.375rem;
 	font-weight: 600;
 	color: #ffffff;
+	margin-bottom: 12px;
 }
 .card__text {
 	grid-column: span 2;
 	font-size: 1.125rem;
 	font-weight: 300;
 	color: #8bacd9;
+	margin-bottom: 16px;
 }
 
 .card__price {
 	font-size: 0.9375rem;
 	font-weight: 600;
 	color: #00fff8;
+	margin-bottom: 16px;
 }
 
 .card__price::before {
@@ -90,7 +94,7 @@ body {
 .card__creator {
 	grid-column: span 2;
 	display: flex;
-	border-top: 1px solid #8bacd9;
+	border-top: 1px solid #2E405A;
 	padding-top: 16px;
 }
 
